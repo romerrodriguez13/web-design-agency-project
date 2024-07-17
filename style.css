@@ -1,0 +1,180 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+ @media (min-width: 480px) {
+  .main {
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    display: block;
+    text-align: center;
+  }
+  
+  span {
+    color: midnightblue;
+    display: inline-block;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  footer > p{
+    text-align: end;
+    color: midnightblue;
+  }
+  
+  .card{
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  
+  .tile-image {
+    width: 400px;
+  }
+  
+  .card-text {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 855px) {
+  .tile-image {
+    width: 100%;
+  }
+}
+
+@media (min-width: 856px) and (max-width: 1200px) {
+  .main {
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    display: block;
+    text-align: left;
+  }
+  
+  span {
+    color: midnightblue;
+    display: inline-block;
+  }
+  
+  .logo {
+    width: 280px;
+  }
+  
+  .card{
+    width: 50%;
+    display: block;
+    float: left;
+  }
+  
+  .tile-image {
+    width: 300px;
+  }
+
+  .card > p {
+    margin-right: 50px;
+  }
+
+  footer {
+    text-align: right;
+    color: midnightblue;
+  }
+} 
+
+@media (min-width: 1201px) and (max-width: 1366px) {
+  .main {
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    display: block;
+    text-align: left;
+  }
+  
+  span {
+    color: midnightblue;
+    display: inline-block;
+  }
+  
+  .logo {
+    width: 400px;
+  }
+  
+  .card{
+    width: 50%;
+    display: block;
+    float: left;
+  }
+  
+  .tile-image {
+    width: 400px;
+    display: inline-block;
+  }
+
+  .card > p {
+    margin-right: 50px;
+  }
+
+  footer {
+    text-align: right;
+    color: midnightblue;
+    text-align: right;
+  }
+} 
+
+ @media (min-width: 1367px){
+  .main {
+    flex: 1;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    display: block;
+    text-align: left;
+  }
+  
+  span {
+    color: midnightblue;
+    display: inline-block;
+  }
+  
+  .logo {
+    width: 260px;
+  }
+  
+  footer > p{
+    text-align: end;
+    color: midnightblue;
+  }
+  
+  .card{
+    width: 50%;
+    display: block;
+    float: left;
+  }
+  
+  .tile-image {
+    width: 300px;
+    float: left;
+    margin: 0px 50px 0px 0px;
+  } 
+  
+  .card-text {
+    text-align: justify;
+    margin-right: 50px;
+  }
+} 
+ 
